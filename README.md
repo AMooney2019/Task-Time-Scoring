@@ -1,6 +1,9 @@
 # Task-Time-Scoring
 A Python script for calculating the confidence intervals for task time data.
 
+Script: ScoreTaskTimes.py
+Sample Data: FakeTaskTimeData.csv
+
 ## About
 Scoring test data in a spreadsheet can be tedious. After each test, you may find 
 yourself making many spreadsheet adjustments. Data samples are rarely the same size, 
