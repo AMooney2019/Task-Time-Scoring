@@ -30,11 +30,11 @@ the task time data you would like to score. Ideally, your column names do not co
 
 3. Save the data file to the same directory where your script is located.
 
-4. Open the script and scroll to the line **infile = 'FakeTaskTimeData.csv'** near the bottom of the page. 
+4. Open the script. Find the line **infile = 'FakeTaskTimeData.csv'** near the bottom of the page. 
 
 5. Replace the 'FakeTaskTimeData.csv' with the name of your file. Be sure to include the '' around the entire file name and the '.csv' extension!
 
-6. At the bottom of the script, find the line **scores = df['TT_1']** . Copy the column name from your file and paste it into the brackets. Be sure to include '' surrounding the column name. 
+6. Find the line **scores = df['TT_1']** at the bottom of the page. Copy the column name from your file and paste it into the brackets. Be sure to include '' surrounding the column name. 
 
 7. Run the script. A set of descriptive statistics and the confidence interval for the scored values should appear in the Output panel. 
 
