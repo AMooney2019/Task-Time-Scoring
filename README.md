@@ -1,8 +1,8 @@
 # Task-Time-Scoring
 A Python script for calculating the confidence intervals for task time data.
 
-  * Script: ScoreTaskTimes.py
-  * Sample Data: FakeTaskTimeData.csv
+  * Script: Score_Task_Times.py
+  * Sample Data: Fake_Task_Time_Data.csv
 
 ## About
 Scoring test data in a spreadsheet can be tedious. After each test, you may find 
@@ -33,9 +33,9 @@ the task time data you would like to score. Ideally, your column names do not co
 
 3. Save the data file to the same directory where your script is located.
 
-4. Open the script. Find the line **infile = 'FakeTaskTimeData.csv'** near the bottom of the page. 
+4. Open the script. Find the line **infile = 'Fake_Task_Time_Data.csv'** near the bottom of the page. 
 
-5. Replace the 'FakeTaskTimeData.csv' with the name of your file. Be sure to include the '' around the entire file name and the '.csv' extension!
+5. Replace the 'Fake_Task_Time_Data.csv' with the name of your file. Be sure to include the '' around the entire file name and the '.csv' extension!
 
 6. Find the line **scores = df['TT_1']** at the bottom of the page. Copy the column name from your file and paste it into the brackets. Be sure to include '' surrounding the column name. 
 
