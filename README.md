@@ -16,8 +16,8 @@ The datafile should be devoid of extra columns and rows. The column names should
 exist within a single header row. The participant or sample number should exist in 
 a single header column.
 
-The data values should be numeric, either as integers (e.g. 60) or decimal values (60.0).
-Any cells with text data should be left blank.
+The data values must be numeric, either as integers (e.g. 60) or decimal values (60.0).
+All cells must contain a value. Blank or text-filled cells will result in a failed script.
 
 ## Usage
 You will need a Python 3.10 or greater installation in order to use this script. 
@@ -39,7 +39,7 @@ the task time data you would like to score. Ideally, your column names do not co
 7. Run the script. A set of descriptive statistics and the confidence interval for the scored values should appear in the Output panel. 
 
 ## Limitations
-The script will fail if the sample cells contain text values. 
+The script will fail if the sample cells contain blanks or text values. 
 
 
 #### References
